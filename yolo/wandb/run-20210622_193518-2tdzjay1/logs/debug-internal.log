@@ -1,0 +1,127 @@
+2021-06-22 19:35:18,925 INFO    MainThread:22777 [internal.py:wandb_internal():88] W&B internal server running at pid: 22777, started at: 2021-06-22 19:35:18.925299
+2021-06-22 19:35:18,926 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: check_version
+2021-06-22 19:35:18,926 INFO    WriterThread:22777 [datastore.py:open_for_write():80] open: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/run-2tdzjay1.wandb
+2021-06-22 19:35:18,927 DEBUG   SenderThread:22777 [sender.py:send():179] send: header
+2021-06-22 19:35:18,927 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: check_version
+2021-06-22 19:35:19,122 DEBUG   SenderThread:22777 [sender.py:send():179] send: run
+2021-06-22 19:35:19,149 INFO    SenderThread:22777 [sender.py:_maybe_setup_resume():401] checking resume status for None/YOLOv5/2tdzjay1
+2021-06-22 19:35:19,330 DEBUG   SenderThread:22777 [git.py:repo():33] git repository is invalid
+2021-06-22 19:35:19,541 INFO    SenderThread:22777 [dir_watcher.py:__init__():168] watching files in: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files
+2021-06-22 19:35:19,541 INFO    SenderThread:22777 [sender.py:_start_run_threads():704] run started: 2tdzjay1 with start time 1624383318
+2021-06-22 19:35:19,547 DEBUG   SenderThread:22777 [sender.py:send():179] send: summary
+2021-06-22 19:35:19,547 INFO    SenderThread:22777 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-22 19:35:19,548 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: run_start
+2021-06-22 19:35:19,553 DEBUG   HandlerThread:22777 [meta.py:__init__():39] meta init
+2021-06-22 19:35:19,553 DEBUG   HandlerThread:22777 [meta.py:__init__():53] meta init done
+2021-06-22 19:35:19,553 DEBUG   HandlerThread:22777 [meta.py:probe():210] probe
+2021-06-22 19:35:19,559 DEBUG   HandlerThread:22777 [git.py:repo():33] git repository is invalid
+2021-06-22 19:35:19,559 DEBUG   HandlerThread:22777 [meta.py:_save_pip():57] save pip
+2021-06-22 19:35:19,560 DEBUG   HandlerThread:22777 [meta.py:_save_pip():71] save pip done
+2021-06-22 19:35:19,560 DEBUG   HandlerThread:22777 [meta.py:_save_conda():78] save conda
+2021-06-22 19:35:20,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-summary.json
+2021-06-22 19:35:20,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/conda-environment.yaml
+2021-06-22 19:35:20,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/requirements.txt
+2021-06-22 19:35:21,541 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/conda-environment.yaml
+2021-06-22 19:35:25,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:27,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:29,542 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:30,543 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:31,543 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:45,088 WARNING MainThread:22777 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-06-22 19:35:45,242 DEBUG   HandlerThread:22777 [meta.py:_save_conda():86] save conda done
+2021-06-22 19:35:45,242 DEBUG   HandlerThread:22777 [meta.py:probe():252] probe done
+2021-06-22 19:35:45,283 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-22 19:35:45,288 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: stop_status
+2021-06-22 19:35:45,290 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-22 19:35:45,290 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-22 19:35:45,290 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-22 19:35:45,462 DEBUG   SenderThread:22777 [sender.py:send():179] send: config
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send():179] send: telemetry
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send():179] send: exit
+2021-06-22 19:35:45,463 INFO    SenderThread:22777 [sender.py:send_exit():287] handling exit code: 1
+2021-06-22 19:35:45,463 INFO    SenderThread:22777 [sender.py:send_exit():295] send defer
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: poll_exit
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: poll_exit
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: poll_exit
+2021-06-22 19:35:45,463 DEBUG   SenderThread:22777 [sender.py:send():179] send: files
+2021-06-22 19:35:45,463 INFO    SenderThread:22777 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-22 19:35:45,464 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,464 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 0
+2021-06-22 19:35:45,465 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,465 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-06-22 19:35:45,465 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 1
+2021-06-22 19:35:45,465 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,465 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 1
+2021-06-22 19:35:45,544 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,544 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-06-22 19:35:45,544 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 2
+2021-06-22 19:35:45,544 DEBUG   SenderThread:22777 [sender.py:send():179] send: stats
+2021-06-22 19:35:45,544 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,544 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 2
+2021-06-22 19:35:45,544 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,544 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-06-22 19:35:45,544 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 3
+2021-06-22 19:35:45,544 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,545 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 3
+2021-06-22 19:35:45,545 DEBUG   SenderThread:22777 [sender.py:send():179] send: summary
+2021-06-22 19:35:45,545 INFO    SenderThread:22777 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-22 19:35:45,545 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,545 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-06-22 19:35:45,545 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 4
+2021-06-22 19:35:45,545 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,545 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 4
+2021-06-22 19:35:45,545 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,545 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-06-22 19:35:45,548 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-summary.json
+2021-06-22 19:35:45,548 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-metadata.json
+2021-06-22 19:35:45,774 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 5
+2021-06-22 19:35:45,775 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:45,775 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 5
+2021-06-22 19:35:45,775 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:45,775 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-06-22 19:35:45,775 INFO    SenderThread:22777 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-22 19:35:46,035 INFO    Thread-11 :22777 [upload_job.py:push():133] Uploaded file /tmp/tmpdv1d2uawwandb/t78a76uj-wandb-metadata.json
+2021-06-22 19:35:46,548 INFO    Thread-8  :22777 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/config.yaml
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():312] scan: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-metadata.json wandb-metadata.json
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-summary.json wandb-summary.json
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/conda-environment.yaml conda-environment.yaml
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/config.yaml config.yaml
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log output.log
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/requirements.txt requirements.txt
+2021-06-22 19:35:46,549 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 6
+2021-06-22 19:35:46,549 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:46,549 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 6
+2021-06-22 19:35:46,550 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:46,550 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-06-22 19:35:46,556 INFO    SenderThread:22777 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-22 19:35:46,556 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 7
+2021-06-22 19:35:46,556 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:46,556 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 7
+2021-06-22 19:35:46,558 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:46,558 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-06-22 19:35:46,951 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 8
+2021-06-22 19:35:46,951 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:46,951 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 8
+2021-06-22 19:35:46,951 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:46,951 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-06-22 19:35:46,952 INFO    SenderThread:22777 [sender.py:send_request_defer():342] send defer: 9
+2021-06-22 19:35:46,952 DEBUG   SenderThread:22777 [sender.py:send():179] send: final
+2021-06-22 19:35:46,952 DEBUG   HandlerThread:22777 [handler.py:handle_request():124] handle_request: defer
+2021-06-22 19:35:46,952 INFO    HandlerThread:22777 [handler.py:handle_request_defer():141] handle defer: 9
+2021-06-22 19:35:46,952 DEBUG   SenderThread:22777 [sender.py:send():179] send: footer
+2021-06-22 19:35:46,952 DEBUG   SenderThread:22777 [sender.py:send_request():193] send_request: defer
+2021-06-22 19:35:46,952 INFO    SenderThread:22777 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-06-22 19:35:47,141 INFO    Thread-16 :22777 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/requirements.txt
+2021-06-22 19:35:47,142 INFO    Thread-13 :22777 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/conda-environment.yaml
+2021-06-22 19:35:47,147 INFO    Thread-15 :22777 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/output.log
+2021-06-22 19:35:47,183 INFO    Thread-14 :22777 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/config.yaml
+2021-06-22 19:35:47,274 INFO    Thread-12 :22777 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/files/wandb-summary.json
+2021-06-22 19:35:52,094 WARNING MainThread:22777 [internal.py:is_dead():366] Internal process exiting, parent pid 22752 disappeared
+2021-06-22 19:35:52,094 ERROR   MainThread:22777 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-06-22 19:35:52,953 INFO    SenderThread:22777 [sender.py:finish():933] shutting down sender
+2021-06-22 19:35:52,953 INFO    SenderThread:22777 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-22 19:35:52,953 INFO    SenderThread:22777 [file_pusher.py:join():181] waiting for file pusher
+2021-06-22 19:35:52,953 INFO    WriterThread:22777 [datastore.py:close():288] close: /home/aaroca/yolo/wandb/run-20210622_193518-2tdzjay1/run-2tdzjay1.wandb
+2021-06-22 19:35:52,958 INFO    HandlerThread:22777 [handler.py:finish():638] shutting down handler
+2021-06-22 19:35:52,958 INFO    MainThread:22777 [internal.py:handle_exit():78] Internal process exited

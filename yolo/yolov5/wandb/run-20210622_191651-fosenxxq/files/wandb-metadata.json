@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.4.0-74-generic-x86_64-with-glibc2.17",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-06-22T17:16:52.790349",
+    "startedAt": "2021-06-22T17:16:51.821028",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.0.130",
+    "args": [
+        "--img",
+        "300",
+        "--batch",
+        "32",
+        "--epochs",
+        "100",
+        "--data",
+        "caltech101.yaml",
+        "--weights",
+        "../yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "63060910a68bfde238872d629ab88e2e7bc736e8"
+    },
+    "email": null,
+    "root": "/home/aaroca/yolo/yolov5",
+    "host": "i7-rtx2080ti",
+    "username": "aaroca",
+    "executable": "/home/aaroca/anaconda3/envs/yolo/bin/python"
+}

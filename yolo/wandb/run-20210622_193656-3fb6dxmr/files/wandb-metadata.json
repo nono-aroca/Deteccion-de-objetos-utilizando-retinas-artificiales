@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.4.0-74-generic-x86_64-with-glibc2.17",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-06-22T17:36:57.000689",
+    "startedAt": "2021-06-22T17:36:56.097364",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.0.130",
+    "args": [
+        "--img",
+        "300",
+        "--batch",
+        "128",
+        "--epochs",
+        "5",
+        "--data",
+        "caltech101.yaml",
+        "--weights",
+        "",
+        "--cfg",
+        "yolov5s.yaml"
+    ],
+    "state": "running",
+    "program": "yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "host": "i7-rtx2080ti",
+    "username": "aaroca",
+    "executable": "/home/aaroca/anaconda3/envs/yolo/bin/python"
+}

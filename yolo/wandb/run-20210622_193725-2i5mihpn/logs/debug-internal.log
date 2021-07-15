@@ -1,0 +1,55 @@
+2021-06-22 19:37:26,090 INFO    MainThread:22992 [internal.py:wandb_internal():88] W&B internal server running at pid: 22992, started at: 2021-06-22 19:37:26.090528
+2021-06-22 19:37:26,122 DEBUG   HandlerThread:22992 [handler.py:handle_request():124] handle_request: check_version
+2021-06-22 19:37:26,122 INFO    WriterThread:22992 [datastore.py:open_for_write():80] open: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/run-2i5mihpn.wandb
+2021-06-22 19:37:26,122 DEBUG   SenderThread:22992 [sender.py:send():179] send: header
+2021-06-22 19:37:26,123 DEBUG   SenderThread:22992 [sender.py:send_request():193] send_request: check_version
+2021-06-22 19:37:26,276 DEBUG   SenderThread:22992 [sender.py:send():179] send: run
+2021-06-22 19:37:26,281 INFO    SenderThread:22992 [sender.py:_maybe_setup_resume():401] checking resume status for None/YOLOv5/2i5mihpn
+2021-06-22 19:37:26,455 DEBUG   SenderThread:22992 [git.py:repo():33] git repository is invalid
+2021-06-22 19:37:26,674 INFO    SenderThread:22992 [dir_watcher.py:__init__():168] watching files in: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files
+2021-06-22 19:37:26,675 INFO    SenderThread:22992 [sender.py:_start_run_threads():704] run started: 2i5mihpn with start time 1624383445
+2021-06-22 19:37:26,676 DEBUG   SenderThread:22992 [sender.py:send():179] send: summary
+2021-06-22 19:37:26,676 INFO    SenderThread:22992 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-22 19:37:26,676 DEBUG   HandlerThread:22992 [handler.py:handle_request():124] handle_request: run_start
+2021-06-22 19:37:26,678 DEBUG   HandlerThread:22992 [meta.py:__init__():39] meta init
+2021-06-22 19:37:26,678 DEBUG   HandlerThread:22992 [meta.py:__init__():53] meta init done
+2021-06-22 19:37:26,678 DEBUG   HandlerThread:22992 [meta.py:probe():210] probe
+2021-06-22 19:37:26,683 DEBUG   HandlerThread:22992 [git.py:repo():33] git repository is invalid
+2021-06-22 19:37:26,683 DEBUG   HandlerThread:22992 [meta.py:_save_pip():57] save pip
+2021-06-22 19:37:26,684 DEBUG   HandlerThread:22992 [meta.py:_save_pip():71] save pip done
+2021-06-22 19:37:26,684 DEBUG   HandlerThread:22992 [meta.py:_save_conda():78] save conda
+2021-06-22 19:37:27,674 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/requirements.txt
+2021-06-22 19:37:27,674 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-summary.json
+2021-06-22 19:37:27,674 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/conda-environment.yaml
+2021-06-22 19:37:32,674 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log
+2021-06-22 19:37:34,674 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log
+2021-06-22 19:37:35,675 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log
+2021-06-22 19:37:37,675 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log
+2021-06-22 19:37:40,902 WARNING MainThread:22992 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-06-22 19:37:40,941 DEBUG   HandlerThread:22992 [meta.py:_save_conda():86] save conda done
+2021-06-22 19:37:40,942 DEBUG   HandlerThread:22992 [meta.py:probe():252] probe done
+2021-06-22 19:37:40,960 DEBUG   HandlerThread:22992 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-22 19:37:40,960 DEBUG   SenderThread:22992 [sender.py:send_request():193] send_request: stop_status
+2021-06-22 19:37:41,132 DEBUG   SenderThread:22992 [sender.py:send():179] send: config
+2021-06-22 19:37:41,676 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_created():216] file/dir created: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-metadata.json
+2021-06-22 19:37:42,677 INFO    Thread-8  :22992 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/config.yaml
+2021-06-22 19:37:43,906 WARNING MainThread:22992 [internal.py:is_dead():366] Internal process exiting, parent pid 22967 disappeared
+2021-06-22 19:37:43,906 ERROR   MainThread:22992 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-06-22 19:37:43,962 INFO    WriterThread:22992 [datastore.py:close():288] close: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/run-2i5mihpn.wandb
+2021-06-22 19:37:44,359 INFO    SenderThread:22992 [sender.py:finish():933] shutting down sender
+2021-06-22 19:37:44,359 INFO    SenderThread:22992 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-22 19:37:44,679 INFO    SenderThread:22992 [dir_watcher.py:finish():312] scan: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files
+2021-06-22 19:37:44,679 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-metadata.json wandb-metadata.json
+2021-06-22 19:37:44,680 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-summary.json wandb-summary.json
+2021-06-22 19:37:44,680 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/conda-environment.yaml conda-environment.yaml
+2021-06-22 19:37:44,693 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/config.yaml config.yaml
+2021-06-22 19:37:44,693 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log output.log
+2021-06-22 19:37:44,693 INFO    SenderThread:22992 [dir_watcher.py:finish():318] scan save: /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/requirements.txt requirements.txt
+2021-06-22 19:37:44,693 INFO    SenderThread:22992 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-22 19:37:44,693 INFO    SenderThread:22992 [file_pusher.py:join():181] waiting for file pusher
+2021-06-22 19:37:45,250 INFO    Thread-11 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-metadata.json
+2021-06-22 19:37:45,261 INFO    Thread-12 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/wandb-summary.json
+2021-06-22 19:37:45,265 INFO    Thread-16 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/requirements.txt
+2021-06-22 19:37:45,269 INFO    Thread-14 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/config.yaml
+2021-06-22 19:37:45,321 INFO    Thread-13 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/conda-environment.yaml
+2021-06-22 19:37:45,495 INFO    Thread-15 :22992 [upload_job.py:push():133] Uploaded file /home/aaroca/yolo/wandb/run-20210622_193725-2i5mihpn/files/output.log
