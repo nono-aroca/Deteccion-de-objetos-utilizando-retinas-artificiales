@@ -2,8 +2,9 @@
 download: https://drive.google.com/u/1/uc?export=download&confirm=fszI&id=137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: caltech101/images/train
-val: caltech101/images/val
+train: ../caltech101/images/train
+val: ../caltech101/images/val
+test: ../caltech101/images/test
 
 # number of classes
 nc: 101
